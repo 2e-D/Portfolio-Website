@@ -80,7 +80,7 @@ border-bottom: solid 3px black;
 
 .project-container{
   height: 450px;
-  background-image: url(/about-back-new.jpg);
+  background-image: url(about-back-new.jpg);
   background-size: cover;
 
 }
@@ -91,14 +91,14 @@ border-bottom: solid 3px black;
     align-items: center;
     border-bottom: solid 3px black;
     padding-top: 10px;
-    background-image: url(/nav-bar-background.jpg);
+    background-image: url(nav-bar-background.jpg);
     background-size: cover;
     padding-bottom: 10px;
     
 }
 
 .project-container:hover{
-    background-image: url(/about-back-hover.jpg)
+    background-image: url(about-back-hover.jpg)
 }
 
 
@@ -115,7 +115,7 @@ border-bottom: solid 3px black;
     align-items: center;
     text-align: center;
     gap: 5px;
-    background-image: url(/poke-image.png);
+    background-image: url(poke-image.png);
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 100px;
