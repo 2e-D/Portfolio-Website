@@ -16,4 +16,4 @@ button.addEventListener("click", function () {
   } else {
     button.innerText = "Show my Skills";
   }
-});
+})
