@@ -6,11 +6,13 @@ body {
 
 .greetMessage {
   display: flex;
-  border: solid 2px red;
   justify-content: center;
   font-size: 30px;
-  background: red;
+  background: black;
   border-bottom: solid 3px black;
+  color: white;
+  height: 40px;
+  align-items: center;
 }
 
 .output {
@@ -32,13 +34,15 @@ body {
 
 .btn {
   width: 10%;
-  border: solid 2px yellow;
   margin-bottom: 5px;
+  border-radius: 10px;
+  border-style: groove;
+  border: solid 1px black;
 }
 
 .welcome {
   padding-top: 25px;
-  border-bottom: solid 3px black;
+  border: solid 3px white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,6 +51,8 @@ body {
   margin-bottom: 20px;
   align-content: center;
   height: 100px;
+  background-image: url(mountain-pic.jpg);
+  background-size: cover;
 }
 
 .welcome-container {
@@ -60,8 +66,9 @@ body {
   bottom: 0;
   width: 100%;
   height: 20px;
-  background: red;
-  border-top: solid 3px black;
+  background: black;
+  border-top: solid 2px white;
+  color: white;
 }
 
 footer {
