@@ -8,110 +8,93 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!--NAV BAR-->
-    <div class="nav-bar">
-      <div class="left-side">
-        <h3 class="nav-text">Portfolio Website</h3>
-      </div>
+    <!--NAV BAR START-->
 
-      <div class="right-side">
-        <h3 class="nav-text">Dan Toohey</h3>
-        <a class="nav-text" href="index.html">Landing page</a>
-      </div>
-    </div>
-
-    <!--NAV BAR END-->
-
-    <!--ABOUT ME SECTION-->
-    <div class="about-container">
-      <div class="about-heading">
-        <h3 class="about-hd-text">ABOUT ME</h3>
-      </div>
-
-      <div class="about-info">
-        <h3 class="about-txt">
-          Hello and welcome to my portfolio website,my name is Dan Toohey and
-          what you are seeing below is the projects I have created (or am
-          halfway through creating) through my self guided path of teaching
-          myself web development. I have been on the self guided path since
-          February of 2022 and I am using UDEMY and The Odin Project as my main
-          resources.
-        </h3>
-      </div>
-    </div>
-
-    <!--ABOUT SECTION END-->
-
-    <!-- PROJECT SHOWCASE START-->
-    <div class="project-container">
-      <div class="project-heading">
-        <h3 class="proj-head">My Projects (More to come)</h3>
-      </div>
-
-      <div class="top-projects">
-        <div class="left-side-p">
-          <a
-            class="poke-txt"
-            href="https://2e-d.github.io/pokemonShinyHuntWebApp/"
-            >Pokemon Encounter App</a
-          >
-
-          <p class="poke-txt-p">
-            This project is my first project i hope to one day take to a fully
-            fledged application. This Application uses HTML, CSS and Javascript.
-            Click the link above to see the application in GitHub Pages
-          </p>
+    <div class="nav-container">
+      <div class="nav-bar">
+        <div class="left-side">
+          <h3>Dan Toohey</h3>
         </div>
+        <div class="right-side">
+          <h3>Portfolio</h3>
 
-        <div class="right-side-p">
-          <a
-            class="Flip-txt"
-            href="https://2e-d.github.io/Colour-Flipper/hex.html"
-            >Colour Flipper</a
-          >
-          <p class="poke-txt-p">
-            This application was made to improve my knowledge of Basic
-            Javascript DOM manipulaiton aswell as using arrays to access and
-            randomise colours shown on screen
-          </p>
+          <!--NAV BAR END-->
         </div>
       </div>
     </div>
 
-    <!-- PROJECT SHOWCASE END-->
-
-    <!--EDUCATION & SKILLS-->
-    <div class="education-container">
-      <div class="edu-heading">
-        <h3>My education & skills</h3>
-      </div>
-
-      <div class="edu-text">
-        <p class="edu-child">
-          My education consists of a level 2 certificate in electrical
-          installation & a Level 3 Qualification in business studies. This is my
-          most important Qualification as this led me to start my own 5 figure
-          Ecommerce business which taught me alot of valuable skills such as -
+    <div class="about-Me-Container">
+      <div class="about-L-Side">
+        <h3 class="ab-heading">About Me</h3>
+        <p>
+          Hello and welcome to my portfolio webiste, My name is Dan Toohey and i
+          am an aspiring Web Developer. I have been self-teaching myself since
+          february of 2022 through means of The Odin Project and Udemy and most
+          recently the 'C.O.D.E Lancashire' Software Development Bootcamp.
         </p>
-
+      </div>
+      <div class="about-R-Side">
+        <img class="abt-img" src="About-me-img.jpg" alt="" />
+      </div>
+    </div>
+    <!--SECTION 1 END
+        SECTION 2 START-->
+    <h1 class="project-heading">My Projects</h1>
+    <div class="project-container">
+      <div class="info">
+        <img class="project-images" src="poke-image.png" alt="" />
+        <div class="text">
+          <a href="https://2e-d.github.io/pokemonShinyHuntWebApp/"
+            >Pokemon Application (Work in progress</a
+          >
+        </div>
+      </div>
+      <div class="info">
+        <img class="project-images" src="color-flip-app.png" alt="" />
+        <div class="text">
+          <a href="https://2e-d.github.io/Colour-Flipper/"
+            >Color Flipper Page</a
+          >
+        </div>
+      </div>
+    </div>
+    <!--SECTION 2 END
+    SECTION 3 START-->
+    <div class="edu-main-container">
+      <h1 class="edu-heading">My Skills and Education</h1>
+      <div class="education-container">
+        <p class="edu-para">
+          I feel over the years I have gained a wide range of skills that make
+          me employable in many environments. I have had experience working in
+          retail, running my own Eccomerce business, Marketing that said
+          business and now basic web development. Click the button below to see
+          a full list of skills
+        </p>
         <button id="eduBtn" onclick="myFunction()">Hide my Skills</button>
         <ul id="eduList" class="edu-child">
           <li>Managing a business</li>
           <li>Customer Service</li>
           <li>Time management</li>
           <li>Marketing (social media)</li>
+          <li>Basic Web Development</li>
+          <li>communication</li>
+          <li>Creative Thinking</li>
+        </ul>
+
+        <p class="edu-para">See below for my education</p>
+
+        <ul class="edu-List-2">
+          <li>Level 3 Diploma in BTEC Business (Kendal College)</li>
+          <li>Level 2 Diploma in Electrical Installations (Kendal College)</li>
+          <li>8 GCSE's (Carnforth High School)</li>
         </ul>
       </div>
     </div>
 
-    <!-- EDU AND SKILLS END-->
-    <!--FOOTER-->
-    <footer class="footer">
-      <p class="footer-text">
-        Created by Dan Toohey using HTML & CSS and Javascript
-      </p>
+    <footer>
+      <h3>Created By Dan Toohey</h3>
+      <a href="index.html">Click here to go back to the Landing Page</a>
     </footer>
-
     <script src="main.js"></script>
   </body>
 </html>
